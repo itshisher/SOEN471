@@ -24,7 +24,6 @@ if st.checkbox('Show Training Dataframe'):
     data
 
 #Get user input
-#remove 22,26,34,47,48,50,53,57
 feature1 = st.radio('Heavy / Extreme menstrual bleeding:', ('Yes', 'No'))
 var1 = 1 if feature1 == 'Yes' else 0
 feature2 = st.radio('Menstrual pain (Dysmenorrhea):', ('Yes', 'No'))
